@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local environments, caches and builds
+.cache/
+dist/
+
+# Research: benchmark, test renders, results, thesis, presentation, report
+bench/
+results/
+docs/*
+!docs/images/
+docs/images/*
+!docs/images/unity_scene.jpg
+!docs/images/ui_preferences_en.png
+!docs/images/scan_light_en.jpg
+
+# Gaussian files (the unit tests keep their own small fixtures)
+*.ply
+*.spz
+!tests/data/*.ply
+tests/data/kiri_*.ply
